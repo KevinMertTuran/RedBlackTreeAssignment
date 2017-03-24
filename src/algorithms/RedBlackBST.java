@@ -12,7 +12,7 @@ import java.util.Comparator;
  *
  * @author Tobias
  */
-public class RedBlackBST<k, v> implements IMap<k, v> {
+public class RedBlackBST<k, v> implements MapInterFace<k, v> {
 
     private RedBlackNode<k, v> root;
     private Comparator<k> comp;

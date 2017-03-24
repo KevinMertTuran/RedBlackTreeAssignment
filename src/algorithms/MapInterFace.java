@@ -9,7 +9,7 @@ package algorithms;
  *
  * @author kevinturan
  */
-public interface IMap<k, v> {
+public interface MapInterFace<k, v> {
     
     public void put(k key, v value);
     public v get(k key);
